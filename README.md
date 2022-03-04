@@ -59,6 +59,7 @@ ioctlsocket function (winsock2.h) - Win32 apps | Microsoft Docs
 
 
 ## Operation: Client (rnks_chat_client.exe)
+--> put Client.c and Client.h in a file name ,which is (rnks_chat_client).
 
 The client is called by specifying three mandatory arguments. If these are not given or only given incompletely, the program will be terminated with an error message. The call syntax follows the following principle (the order of the arguments cannot be chosen arbitrarily):
 
