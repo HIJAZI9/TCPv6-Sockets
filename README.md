@@ -66,10 +66,13 @@ The client is called by specifying three mandatory arguments. If these are not g
 
 **Arguments:**
 | argument | Description |
-| ----- | -------------------------------------------------- --------------------|
+| ----------- | -------------------------------------------------- ---------------|
+
 | `<address>` | IP address of the computer on which the server program is running |
-| `<port>` | Port number via which the connection to the server is established |
-| `<name>` | Username (e.g. library no. (Sxxxxx)) |
+
+| `<port>`    | Port number via which the connection to the server is established |
+
+| `<name>`    | Username (e.g. library no. (Sxxxxx))                              |
   
 After a successful call, the client is initialized and begins to connect to the server (see screenshot below).
 
