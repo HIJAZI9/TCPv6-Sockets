@@ -65,15 +65,14 @@ The client is called by specifying three mandatory arguments. If these are not g
 **Calling syntax:** `rnks_chat_client.exe <address> <port> <name>`
 
 **Arguments:**
-| argument | Description |
+ argument --> Description 
 
-| ----------- | -------------------------------------------------- ---------------|
 
-| `<address>` | IP address of the computer on which the server program is running |
+ `<address>` --> IP address of the computer on which the server program is running 
 
-| `<port>`    | Port number via which the connection to the server is established |
+ `<port>`    --> Port number via which the connection to the server is established 
 
-| `<name>`    | Username (e.g. library no. (Sxxxxx))                              |
+ `<name>`    --> Username (e.g. library no. (Sxxxxx))                              
   
 After a successful call, the client is initialized and begins to connect to the server (see screenshot below).
 
