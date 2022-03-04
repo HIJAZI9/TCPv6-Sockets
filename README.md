@@ -66,6 +66,7 @@ The client is called by specifying three mandatory arguments. If these are not g
 
 **Arguments:**
 | argument | Description |
+
 | ----------- | -------------------------------------------------- ---------------|
 
 | `<address>` | IP address of the computer on which the server program is running |
