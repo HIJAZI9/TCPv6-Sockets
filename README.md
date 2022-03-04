@@ -58,4 +58,23 @@ select () - socket function
 ioctlsocket function (winsock2.h) - Win32 apps | Microsoft Docs
 
 
+## Operation: Client (rnks_chat_client.exe)
 
+The client is called by specifying three mandatory arguments. If these are not given or only given incompletely, the program will be terminated with an error message. The call syntax follows the following principle (the order of the arguments cannot be chosen arbitrarily):
+
+**Calling syntax:** `rnks_chat_client.exe <address> <port> <name>`
+
+**Arguments:**
+| argument | Description |
+| ----- | -------------------------------------------------- --------------------|
+| `<address>` | IP address of the computer on which the server program is running |
+| `<port>` | Port number via which the connection to the server is established |
+| `<name>` | Username (e.g. library no. (Sxxxxx)) |
+  
+After a successful call, the client is initialized and begins to connect to the server (see screenshot below).
+
+![Graphic: Screenshot of the client after a successful connection](img/client_connect.png "Screenshot of the client after a successful connection")
+
+After a connection is established between the server and the client, message exchange begins. For the client, it sends messages with the username: s82822 to the server. The client also receives messages from the server with username: s82802 and displays them on the screen (see screenshot below).
+
+![Graphic: Screenshot of the client after a short message exchange](img/client_conversation.png "Screenshot of the client after a short message exchange")
