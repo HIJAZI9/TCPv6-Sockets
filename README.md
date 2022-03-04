@@ -77,7 +77,7 @@ The client is called by specifying three mandatory arguments. If these are not g
   
 After a successful call, the client is initialized and begins to connect to the server (see screenshot below).
 
-![Graphic: Screenshot of the client after a successful connection](img/client_connect.png "Screenshot of the client after a successful connection")
+![Graphic: Screenshot of the client after a successful connection](C:\Users\moham\OneDrive\Desktop\sem3\Rechnernetze\Beleg_2022\github_images "Screenshot of the client after a successful connection")
 
 After a connection is established between the server and the client, message exchange begins. For the client, it sends messages with the username: s82822 to the server. The client also receives messages from the server with username: s82802 and displays them on the screen (see screenshot below).
 
