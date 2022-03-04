@@ -44,6 +44,18 @@ of bind and listen and thus the call sequence of the 2 application instances in 
 They differ in execution. Start the server accordingly first so that the incoming
 Connection can be heard by the client.
 
+Notice:
+
+Work without further threads! You can send and receive at the same time using the select () -
+Realize function. This enables asynchronous sockets and allows you to distinguish whether
+Data is available via the keyboard (stdin) or via the network (socket file descriptor). You can
+then either send the data to the recipient or read the data from the socket.
+Make sure you are using non-blocking functions for sending and receiving
+Data work.
+
+select () - socket function
+
+ioctlsocket function (winsock2.h) - Win32 apps | Microsoft Docs
 
 
 
