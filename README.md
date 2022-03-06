@@ -81,4 +81,4 @@ After a successful call, the client is initialized and begins to connect to the 
 
 After a connection is established between the server and the client, message exchange begins. For the client, it sends messages with the username: s82822 to the server. The client also receives messages from the server with username: s82802 and displays them on the screen (see screenshot below).
 
-![Graphic: Screenshot of the client after a short message exchange](img/client_conversation.png "Screenshot of the client after a short message exchange")
+![client_send_recieve](https://user-images.githubusercontent.com/72709664/156903852-eacfa3e2-dcc8-444d-8424-c415bcfc1df6.jpg)
