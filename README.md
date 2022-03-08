@@ -93,3 +93,4 @@ The server is called by specifying a mandatory argument. If these are not given 
 **Arguments:**
 `<name>`    --> Username (e.g. library no. (Sxxxxx))        
 
+![Server_Connection_send_revieve](https://user-images.githubusercontent.com/72709664/157330388-fe23e887-6ed4-4163-8f3d-c8d49f368d4a.jpg)
