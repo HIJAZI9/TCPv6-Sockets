@@ -93,4 +93,6 @@ The server is called by specifying a mandatory argument. If these are not given 
 **Arguments:**
 `<name>`    --> Username (e.g. library no. (Sxxxxx))        
 
+After a connection is established between the server and the client, message exchange begins. For the server, it sends messages with the username: s82802 to the client. The server also receives messages from the client with username: s82822 and displays them on the screen (see screenshot below).
+
 ![Server_Connection_send_revieve](https://user-images.githubusercontent.com/72709664/157330388-fe23e887-6ed4-4163-8f3d-c8d49f368d4a.jpg)
