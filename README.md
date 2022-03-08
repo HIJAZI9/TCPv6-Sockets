@@ -86,3 +86,10 @@ After a connection is established between the server and the client, message exc
 
 ## Operation: Client (rnks_chat_server.exe)
 --> put Server.c and Server.h in a file name ,which is (rnks_chat_client).
+
+**Calling syntax:**
+The server is called by specifying a mandatory argument. If these are not given or only given incompletely, the program will be terminated with an error message.
+
+**Arguments:**
+`<name>`    --> Username (e.g. library no. (Sxxxxx))        
+
