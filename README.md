@@ -73,9 +73,10 @@ The client is called by specifying three mandatory arguments. If these are not g
 
  `<port>`    --> Port number via which the connection to the server is established 
 
- `<name>`    --> Username (e.g. library no. (Sxxxxx))                              
+ `<name>`    --> Username (e.g. library no. (Sxxxxx))   
+ 
+  images/Argumente_Client.jpg
   
-
 After a successful call, the client is initialized and begins to connect to the server (see screenshot below).
 
 ![connection passed](https://user-images.githubusercontent.com/72709664/156903822-92b041c9-7651-462b-a386-37d9f9e0ba9e.jpg)
