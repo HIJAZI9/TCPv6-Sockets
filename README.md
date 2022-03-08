@@ -83,3 +83,6 @@ After a successful call, the client is initialized and begins to connect to the 
 After a connection is established between the server and the client, message exchange begins. For the client, it sends messages with the username: s82822 to the server. The client also receives messages from the server with username: s82802 and displays them on the screen (see screenshot below).
 
 ![client_send_recieve](https://user-images.githubusercontent.com/72709664/156903852-eacfa3e2-dcc8-444d-8424-c415bcfc1df6.jpg)
+
+## Operation: Client (rnks_chat_server.exe)
+--> put Server.c and Server.h in a file name ,which is (rnks_chat_client).
