@@ -75,7 +75,7 @@ The client is called by specifying three mandatory arguments. If these are not g
 
  `<name>`    --> Username (e.g. library no. (Sxxxxx))   
  
-  images/Argumente_Client.jpg
+ Open images Folder , then Argumente_Client.jpg -->  images/Argumente_Client.jpg
   
 After a successful call, the client is initialized and begins to connect to the server (see screenshot below).
 
@@ -92,7 +92,9 @@ After a connection is established between the server and the client, message exc
 The server is called by specifying a mandatory argument. If these are not given or only given incompletely, the program will be terminated with an error message.
 
 **Arguments:**
-`<name>`    --> Username (e.g. library no. (Sxxxxx))        
+`<name>`    --> Username (e.g. library no. (Sxxxxx))    
+
+ Open images Folder , then Argumente_Server.jpg -->  images/Argumente_Server.jpg
 
 After a connection is established between the server and the client, message exchange begins. For the server, it sends messages with the username: s82802 to the client. The server also receives messages from the client with username: s82822 and displays them on the screen (see screenshot below).
 
