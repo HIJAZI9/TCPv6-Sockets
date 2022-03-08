@@ -75,6 +75,8 @@ The client is called by specifying three mandatory arguments. If these are not g
 
  `<name>`    --> Username (e.g. library no. (Sxxxxx))                              
   
+  ![Argumente_Client](https://user-images.githubusercontent.com/72709664/157326366-1f51a5d0-e68e-429f-9e23-631217b87373.jpg)
+
 After a successful call, the client is initialized and begins to connect to the server (see screenshot below).
 
 ![connection passed](https://user-images.githubusercontent.com/72709664/156903822-92b041c9-7651-462b-a386-37d9f9e0ba9e.jpg)
